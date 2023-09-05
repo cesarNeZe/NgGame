@@ -16,6 +16,7 @@ import { HomeComponent } from './component/home/home.component';
 import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor';
 import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
 import { DetailsComponent } from './component/details/details.component';
+import { GameTabsComponent } from './game-tabs/game-tabs.component';
 
 
 
@@ -24,7 +25,8 @@ import { DetailsComponent } from './component/details/details.component';
     AppComponent,
     SearchBarComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
+    GameTabsComponent
   ],
   imports: [
     FormsModule,
