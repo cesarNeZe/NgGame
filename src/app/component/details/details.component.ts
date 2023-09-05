@@ -29,7 +29,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
       console.log(params['id']);
       this.gameId = params['id'];
       this.getGameDetails(this.gameId);
-      // this.httpService.getGameDetails(params['id']);
+      this.httpService.getGameDetails(params['id']);
 
     });
 
